@@ -3,7 +3,7 @@ pub mod node;
 pub mod radix_tree;
 
 use crate::node::Node;
-use crate::radix_tree::radix_tree::radix_tree_init;
+use crate::radix_tree::radix_tree_operations::radix_tree_init;
 
 fn main() {
     println!("Hello, world!");
